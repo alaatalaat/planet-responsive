@@ -1,0 +1,432 @@
+body{box-sizing:border-box;margin: 0px;padding:0px;height:auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) and (max-width: 768px){ 
+	body{height:auto;}
+	nav {width:100%;background:#EA2027;height:50px;border-bottom:1px solid white}
+	nav ul{display:block;flex-direction:column;margin-top:0px;padding:0px;background:#EA2027;}
+	nav ul *{list-style-type: none;margin-right:0px;line-height:40px;background:#EA2027;border: 0.3px solid white;}
+	nav ul li a{color:white;width:100%;height:40px;display:block;padding: 0px 30px;}
+	nav ul li a:hover{text-decoration:none;color:white;background:#353b48;}
+	nav ul button{width:100%;height:40px;font-size:14px;background:#fbc531;color:#EA2027;border-radius:50px;border:none;}
+	nav span{color:white;margin-left:10px;font-size:22px;}
+	nav span img{margin-right:10px;}
+	header{width:100%;height:350px;background-image:url('https://image.shutterstock.com/z/stock-photo-burgers-with-beer-and-spices-on-black-rustic-background-1377461969.jpg');margin-top:203px;background-size:100% 400px;}
+	header p:first-child{color:white;font-size:50px;font-weight:bold;margin-left:30%;padding-top:20px;font-family:'Aguafina Script',cursive;}
+	header p:nth-child(2){color:white;font-size:25px;margin-left:22%;}
+	header span:first-of-type{color:white;position:absolute;left:27%;bottom:70px;background:black;opacity:0.7}
+	header span:nth-of-type(2){color:white;position:absolute;left:35%;bottom:40px;background:black;opacity:0.7}
+	section:first-of-type div:first-child{margin:auto;width:150px;color:#450A01;font-weight:bold;font-size:40px;font-family:'Aguafina Script',cursive;margin-top:15px;}
+	section:first-of-type div:nth-child(2){width:550px;margin:auto;text-align:center;color:#450A01;font-size:16px;}
+	section:first-of-type div:nth-child(3){margin: auto;width:520px;margin-top:20px;}
+	section:first-of-type div:nth-child(3) img{margin-right:10px;}
+
+	section:nth-of-type(2){margin:auto;width:80%;height:350px;margin-top:45px;}
+	section:nth-of-type(2) div{width:80%;background:white;height:100%;text-align:center;margin:auto;}
+	section:nth-of-type(2) div img{border-radius:10%;width:50%;height:50%;}
+	section:nth-of-type(2) div p:first-of-type{font-size:30px;font-weight:bold;font-family:'Aguafina Script',cursive;margin-top:10px;color:#450A01;}
+	section:nth-of-type(2) div p:nth-of-type(2){color:#450A01;}
+	section:nth-of-type(3){margin:auto;width:80%;height:350px;margin-top:700px;}
+	section:nth-of-type(3) div{width:80%;background:white;height:100%;text-align:center;margin:auto;}
+	section:nth-of-type(3) div img{border-radius:10%;width:50%;height:50%;}
+	section:nth-of-type(3) div p:first-of-type{font-size:30px;font-weight:bold;font-family:'Aguafina Script',cursive;margin-top:10px;color:#450A01;}
+	section:nth-of-type(3) div p:nth-of-type(2){color:#450A01;}
+	section:nth-of-type(4){width:100;height:500px;margin-top: 700px;}
+	section:nth-of-type(5){width:100%;height:600px;background-image:url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');background-size:cover;background-repeat:no-repeat;}
+	section:nth-of-type(5) div:first-of-type{width:200px;margin:auto;color:#450A01;font-weight:bold;font-size:40px;font-family: 'Lobster', cursive;padding-top:50px;}
+	section:nth-of-type(5) div:nth-of-type(2){width:80%;margin:auto;text-align:center;margin-top:20px;font-size:18px;color:#450A01;
+	opacity:0.5}
+	section:nth-of-type(5) div:nth-of-type(3){width:85%;margin:auto;text-align:center;margin-top:20px;color:#450A01;opacity:0.7;font-size:17px;}
+	section:nth-of-type(5) div:nth-of-type(4){width:90%;margin:auto;text-align:center;margin-top:20px;font-size:16px;color:#450A01;
+	opacity:0.7}
+	section:nth-of-type(6)>div:first-of-type{margin: auto;color:#450A01;font-family: 'Lobster', cursive;padding-top:40px;width:200px;font-size:25px;font-weight:bold;}
+	section:nth-of-type(6)>div:nth-of-type(2){width:70%;margin:auto;color:#450A01;text-align:center;font-size:17px;margin-top:20px;}
+	section:nth-of-type(6) div:nth-of-type(3){width:80%;margin:auto;height:120px;margin-top:50px;}
+	section:nth-of-type(6) div:nth-of-type(3) div{width:100%;background:#f5f6fa;height:110px;margin:15px 8px 30px 0px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:first-child img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:first-child  p{float:right;width:82%;color:#450A01;margin-top:20px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:nth-child(2) img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:nth-child(2)  p{float:right;width:82%;color:#450A01;margin-top:20px;font-size:15px}
+
+	
+	section:nth-of-type(6) div:nth-of-type(4){width:80%;margin:auto;height:120px;margin-top:150px;}
+
+
+	section:nth-of-type(6) div:nth-of-type(4) div{width:100%;background:#f5f6fa;height:110px;margin:15px 8px 30px 0px;;}
+	section:nth-of-type(6) div:nth-of-type(4) div:first-child img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:first-child  p{float:right;width:82%;color:#450A01;margin-top:20px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:nth-child(2) img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:nth-child(2)  p{float:right;width:82%;color:#450A01;margin-top:20px;font-size:15px}
+	footer{background:#EA2027;width:100%;height:40px;margin-top:200px;}
+	footer div{margin:auto;width:200px;}
+	footer div i{font-size:25px;color:white;margin-right:10px;margin-top:10px;}
+
+}/*end*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+	body{height:auto;}
+	nav {width:100%;background:#EA2027;height:50px;border-bottom:1px solid white;}
+	nav ul{display:flex;flex-direction:row-reverse;width:50%;float:right;margin-right:10%;}
+	nav ul li{list-style-type: none;margin-right:5px;line-height:50px;}
+	nav ul li a{color:white;width:100%;height:49px;display:block;padding: 0px 10px;}
+	nav ul li a:hover{text-decoration:none;color:white;background:#353b48;}
+	nav ul button{width:160px;height:40px;font-size:12px;background:white;color:#EA2027;margin-top:5px;border:none;border-radius:50px}
+	nav span{color:white;margin-left:20px;font-size:18px;line-height:50px;}
+	nav span img{margin-right:10px;}
+	header{width:100%;height:400px;background-image:url('https://image.shutterstock.com/z/stock-photo-burgers-with-beer-and-spices-on-black-rustic-background-1377461969.jpg');background-repeat:no-repeat;background-size:cover;}
+	header p:first-child{color:white;font-size:50px;font-weight:bold;margin-left:38%;padding-top:20px;font-family:'Aguafina Script', cursive;}
+	header p:nth-child(2){color:white;font-size:25px;margin-left:33%;}
+	header span:first-of-type{color:white;position:absolute;left:35%;bottom:70px;background:black;opacity:0.7}
+	header span:nth-of-type(2){color:white;position:absolute;left:40%;bottom:40px;background:black;opacity:0.7}
+	section:first-of-type div:first-child{margin:auto;width:150px;color:#450A01;font-weight:bold;font-size:40px;font-family:'Aguafina Script',cursive;margin-top:15px;}
+	section:first-of-type div:nth-child(2){width:550px;margin:auto;text-align:center;color:#450A01;font-size:16px;}
+	section:first-of-type div:nth-child(3){margin: auto;width:520px;margin-top:20px;}
+	section:first-of-type div:nth-child(3) img{margin-right:10px;}
+	section:nth-of-type(2){margin:auto;width:100%;height:350px;margin-top:45px;}
+	section:nth-of-type(2) div{width:32.5%;background:white;float:left;height:100%;text-align:center;}
+	section:nth-of-type(2) div img{border-radius:50%;width:50%;height:50%;}
+	section:nth-of-type(2) div p:first-of-type{font-size:30px;font-weight:bold;font-family:'Aguafina Script',cursive;margin-top:10px;color:#450A01;}
+	section:nth-of-type(2) div p:nth-of-type(2){color:#450A01;}
+	section:nth-of-type(3){margin:auto;width:100%;height:350px;margin-top:60px;}
+	section:nth-of-type(3) div{width:32.5%;background:white;float:left;height:100%;text-align:center;}
+	section:nth-of-type(3) div img{border-radius:50%;width:50%;height:50%;}
+	section:nth-of-type(3) div p:first-of-type{font-size:30px;font-weight:bold;font-family:'Aguafina Script',cursive;margin-top:10px;color:#450A01;}
+	section:nth-of-type(3) div p:nth-of-type(2){color:#450A01;}
+	section:nth-of-type(4){width:100;height:500px;margin-top:100px;}
+
+section:nth-of-type(5){width:100%;height:500px;background-image:url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');background-size:cover;background-repeat:no-repeat;}
+section:nth-of-type(5) div:first-of-type{width:200px;margin:auto;color:#450A01;font-weight:bold;font-size:40px;font-family: 'Lobster', cursive;padding-top:70px;}
+section:nth-of-type(5) div:nth-of-type(2){width:85%;margin:auto;text-align:center;margin-top:20px;font-size:18px;color:#450A01;
+	opacity:0.5}
+section:nth-of-type(5) div:nth-of-type(3){width:90%;margin:auto;text-align:center;margin-top:20px;color:#450A01;opacity:0.7;font-size:17px;}
+section:nth-of-type(5) div:nth-of-type(4){width:95%;margin:auto;text-align:center;margin-top:20px;font-size:16px;color:#450A01;
+	opacity:0.7}
+section:nth-of-type(6)>div:first-of-type{margin:auto;color:#450A01;font-family: 'Lobster', cursive;padding-top:40px;width:200px;font-size:25px;font-weight:bold;}
+section:nth-of-type(6)>div:nth-of-type(2){width:75%;margin:auto;color:#450A01;text-align:center;font-size:17px;margin-top:20px;}
+section:nth-of-type(6) div:nth-of-type(3){width:95%;margin:auto;height:120px;margin-top:50px;}
+section:nth-of-type(6) div:nth-of-type(3) div{width:49%;float:left;margin-right:8px;background:#f5f6fa;height:120px;margin-top:0px;}
+section:nth-of-type(6) div:nth-of-type(3) div:first-child img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:5px;}
+section:nth-of-type(6) div:nth-of-type(3) div:first-child  p{float:right;width:80%;color:#450A01;margin-top:20px;}
+section:nth-of-type(6) div:nth-of-type(3) div:nth-child(2) img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:5px;}
+section:nth-of-type(6) div:nth-of-type(3) div:nth-child(2)  p{float:right;width:80%;color:#450A01;margin-top:20px;font-size:15px}
+section:nth-of-type(6) div:nth-of-type(4){width:95%;margin:auto;height:120px;margin-top:50px;}
+section:nth-of-type(6) div:nth-of-type(4) div{width:49%;float:left;margin-right:8px;background:#f5f6fa;height:120px;margin-top:0px;}
+section:nth-of-type(6) div:nth-of-type(4) div:first-child img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:5px;}
+section:nth-of-type(6) div:nth-of-type(4) div:first-child  p{float:right;width:80%;color:#450A01;margin-top:20px;}
+section:nth-of-type(6) div:nth-of-type(4) div:nth-child(2) img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:5px;}
+section:nth-of-type(6) div:nth-of-type(4) div:nth-child(2)  p{float:right;width:80%;color:#450A01;margin-top:20px;font-size:15px}
+footer{background:#EA2027;width:100%;height:40px;margin-top:100px;}
+footer div{margin:auto;width:200px;}
+footer div i{font-size:25px;color:white;margin-right:10px;margin-top:10px;}
+}/*END this media*/
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) and (max-width: 1200px) { 
+	body{height:auto;}
+	nav{width:100%;background:#EA2027;height:70px;}
+	nav ul{display:flex;flex-direction:row-reverse;width:50%;float:right;margin-right:15%;}
+	nav ul li{list-style-type: none;margin-right:15px;line-height:70px;}
+	nav ul li a{color:white;width:100%;height:70px;display:block;padding: 0px 10px;}
+	nav ul li a:hover{text-decoration:none;color:white;background:#353b48}
+	nav ul button{width:120px;height:40px;font-size:14px;background:white;color:#EA2027;border-radius:50px;margin-top:15px;border:none;}
+	nav span{color:white;margin-left:150px;font-size:18px;line-height:70px;}
+	nav span img{margin-right:10px;}
+	header{width:100%;height:500px;background-image:url('https://image.shutterstock.com/z/stock-photo-burgers-with-beer-and-spices-on-black-rustic-background-1377461969.jpg');background-repeat:no-repeat;background-size:cover;}
+	header p:first-child{color:white;font-size:50px;font-weight:bold;margin-left:40%;padding-top:30px;font-family:'Aguafina Script', cursive;}
+	header p:nth-child(2){color:white;font-size:30px;margin-left:35%;}
+	header span:first-of-type{color:white;position:absolute;left:42%;bottom:70px;background:black;opacity:0.7}
+	header span:nth-of-type(2){color:white;position:absolute;left:48%;bottom:40px;background:black;opacity:0.7}
+	section:first-of-type div:first-child{margin:auto;width:150px;color:#450A01;font-weight:bold;font-size:40px;font-family:'Aguafina Script',cursive;margin-top:15px;}
+	section:first-of-type div:nth-child(2){width:550px;margin:auto;text-align:center;color:#450A01;font-size:16px;}
+	section:first-of-type div:nth-child(3){margin: auto;width:520px;margin-top:20px;}
+	section:first-of-type div:nth-child(3) img{margin-right:10px;}
+
+	section:nth-of-type(2){margin:auto;width:100%;height:350px;margin-top:45px;}
+	section:nth-of-type(2) div{width:32.5%;background:white;float:left;height:100%;text-align:center;}
+	section:nth-of-type(2) div img{border-radius:50%;width:50%;height:50%;}
+	section:nth-of-type(2) div p:first-of-type{font-size:30px;font-weight:bold;font-family:'Aguafina Script',cursive;margin-top:10px;color:#450A01;}
+	section:nth-of-type(2) div p:nth-of-type(2){color:#450A01;}
+	section:nth-of-type(3){margin:auto;width:100%;height:350px;margin-top:45px;}
+	section:nth-of-type(3) div{width:32.5%;background:white;float:left;height:100%;text-align:center;}
+	section:nth-of-type(3) div img{border-radius:50%;width:50%;height:50%;}
+	section:nth-of-type(3) div p:first-of-type{font-size:30px;font-weight:bold;font-family:'Aguafina Script',cursive;margin-top:10px;color:#450A01;}
+	section:nth-of-type(3) div p:nth-of-type(2){color:#450A01;}
+	section:nth-of-type(4){width:100;height:500px;margin-top: 100px;}
+
+	section:nth-of-type(5){width:100%;height:500px;background-image:url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');background-size:cover;background-repeat:no-repeat;}
+	section:nth-of-type(5) div:first-of-type{width:200px;margin:auto;color:#450A01;font-weight:bold;font-size:40px;font-family: 'Lobster', cursive;padding-top:70px;}
+	section:nth-of-type(5) div:nth-of-type(2){width:820px;margin:auto;text-align:center;margin-top:20px;font-size:18px;color:#450A01;
+	opacity:0.5}
+	section:nth-of-type(5) div:nth-of-type(3){width:1050px;margin:auto;text-align:center;margin-top:20px;color:#450A01;opacity:0.7;font-size:17px;}
+	section:nth-of-type(5) div:nth-of-type(4){width:1100px;margin:auto;text-align:center;margin-top:20px;font-size:16px;color:#450A01;
+	opacity:0.7}
+	section:nth-of-type(6)>div:first-of-type{margin: auto;color:#450A01;font-family: 'Lobster', cursive;padding-top:40px;width:200px;font-size:25px;font-weight:bold;}
+	section:nth-of-type(6)>div:nth-of-type(2){width:58%;margin:auto;color:#450A01;text-align:center;font-size:17px;margin-top:20px;}
+	section:nth-of-type(6) div:nth-of-type(3){width:80%;margin:auto;height:120px;margin-top:50px;}
+	section:nth-of-type(6) div:nth-of-type(3) div{width:49%;float:left;margin-right:8px;background:#f5f6fa;height:110px;margin-top:0px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:first-child img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:first-child  p{float:right;width:82%;color:#450A01;margin-top:20px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:nth-child(2) img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:nth-child(2)  p{float:right;width:82%;color:#450A01;margin-top:20px;font-size:15px}
+	section:nth-of-type(6) div:nth-of-type(4){width:80%;margin:auto;height:120px;margin-top:50px;}
+	section:nth-of-type(6) div:nth-of-type(4) div{width:49%;float:left;margin-right:8px;background:#f5f6fa;height:110px;margin-top:0px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:first-child img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:first-child  p{float:right;width:82%;color:#450A01;margin-top:20px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:nth-child(2) img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:nth-child(2)  p{float:right;width:82%;color:#450A01;margin-top:20px;font-size:15px}
+	footer{background:#EA2027;width:100%;height:40px;margin-top:100px;}
+	footer div{margin:auto;width:200px;}
+	footer div i{font-size:25px;color:white;margin-right:10px;margin-top:10px;}
+ }/*end media*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+	body{height:auto;} 
+	nav{width:100%;background:#EA2027;height:70px;}
+	nav ul{display:flex;flex-direction:row-reverse;width:50%;float:right;margin-right:15%;}
+	nav ul li{list-style-type: none;margin-right:15px;line-height:70px;}
+	nav ul li a{color:white;width:100%;height:70px;display:block;padding: 0px 10px;}
+	nav ul li a:hover{text-decoration:none;color:white;background:#353b48}
+	nav ul button{width:120px;height:40px;font-size:14px;background:white;color:#EA2027;border-radius:50px;margin-top:15px;border:none;}
+	nav span{color:white;margin-left:150px;font-size:18px;line-height:70px;}
+	nav span img{margin-right:10px;}
+	header{width:100%;height:500px;background-image:url('https://image.shutterstock.com/z/stock-photo-burgers-with-beer-and-spices-on-black-rustic-background-1377461969.jpg');background-repeat:no-repeat;background-size:cover;}
+	header p:first-child{color:white;font-size:50px;font-weight:bold;margin-left:42%;padding-top:30px;font-family:'Aguafina Script', cursive;}
+	header p:nth-child(2){color:white;font-size:30px;margin-left:37%;}
+	header span:first-of-type{color:white;position:absolute;left:42%;bottom:70px;background:black;opacity:0.7}
+	header span:nth-of-type(2){color:white;position:absolute;left:46%;bottom:40px;background:black;opacity:0.7}
+	section:first-of-type div:first-child{margin:auto;width:150px;color:#450A01;font-weight:bold;font-size:40px;font-family:'Aguafina Script',cursive;margin-top:15px;}
+	section:first-of-type div:nth-child(2){width:750px;margin:auto;text-align:center;color:#450A01;font-size:16px;}
+	section:first-of-type div:nth-child(3){margin: auto;width:520px;margin-top:20px;}
+	section:first-of-type div:nth-child(3) img{margin-right:10px;}
+	section:nth-of-type(2){margin:auto;width:90%;height:350px;margin-top:45px;}
+	section:nth-of-type(2) div{width:32.5%;background:white;margin-right:10px;float:left;height:100%;text-align:center;}
+	section:nth-of-type(2) div img{border-radius:50%;width:50%;height:50%;}
+	section:nth-of-type(2) div p:first-of-type{font-size:30px;font-weight:bold;font-family:'Aguafina Script',cursive;margin-top:10px;color:#450A01;}
+	section:nth-of-type(2) div p:nth-of-type(2){color:#450A01;}
+	section:nth-of-type(3){margin:auto;width:90%;height:350px;margin-top:45px;}
+	section:nth-of-type(3) div{width:32.5%;background:white;margin-right:10px;float:left;height:100%;text-align:center;}
+	section:nth-of-type(3) div img{border-radius:50%;width:50%;height:50%;}
+	section:nth-of-type(3) div p:first-of-type{font-size:30px;font-weight:bold;font-family:'Aguafina Script',cursive;margin-top:10px;color:#450A01;}
+	section:nth-of-type(3) div p:nth-of-type(2){color:#450A01;}
+	section:nth-of-type(4){width:100;height:500px;margin-top:70px;}
+	section:nth-of-type(5){width:100%;height:500px;background-image:url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');background-size:cover;background-repeat:no-repeat;}
+	section:nth-of-type(5) div:first-of-type{width:200px;margin:auto;color:#450A01;font-weight:bold;font-size:40px;font-family: 'Lobster', cursive;padding-top:70px;}
+	section:nth-of-type(5) div:nth-of-type(2){width:820px;margin:auto;text-align:center;margin-top:20px;font-size:18px;color:#450A01;
+	opacity:0.5}
+	section:nth-of-type(5) div:nth-of-type(3){width:1050px;margin:auto;text-align:center;margin-top:20px;color:#450A01;opacity:0.7;font-size:17px;}
+	section:nth-of-type(5) div:nth-of-type(4){width:1100px;margin:auto;text-align:center;margin-top:20px;font-size:16px;color:#450A01;
+	opacity:0.7}
+	section:nth-of-type(6)>div:first-of-type{margin: auto;color:#450A01;font-family: 'Lobster', cursive;padding-top:40px;width:200px;font-size:25px;font-weight:bold;}
+	section:nth-of-type(6)>div:nth-of-type(2){width:58%;margin:auto;color:#450A01;text-align:center;font-size:17px;margin-top:20px;}
+
+
+	section:nth-of-type(6) div:nth-of-type(3){width:80%;margin:auto;height:120px;margin-top:50px;}
+	section:nth-of-type(6) div:nth-of-type(3) div{width:49%;float:left;margin-right:8px;background:#f5f6fa;height:110px;margin-top:0px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:first-child img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:first-child  p{float:right;width:82%;color:#450A01;margin-top:20px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:nth-child(2) img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(3) div:nth-child(2)  p{float:right;width:82%;color:#450A01;margin-top:20px;font-size:15px}
+
+
+
+	section:nth-of-type(6) div:nth-of-type(4){width:80%;margin:auto;height:120px;margin-top:50px;}
+	section:nth-of-type(6) div:nth-of-type(4) div{width:49%;float:left;margin-right:8px;background:#f5f6fa;height:110px;margin-top:0px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:first-child img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:first-child  p{float:right;width:82%;color:#450A01;margin-top:20px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:nth-child(2) img{width:80px;height:80px;border-radius:50%;margin-top:20px;margin-left:10px;}
+	section:nth-of-type(6) div:nth-of-type(4) div:nth-child(2)  p{float:right;width:82%;color:#450A01;margin-top:20px;font-size:15px;}
+	footer{background:#EA2027;width:100%;height:40px;margin-top:100px;}
+	footer div{margin:auto;width:200px;}
+	footer div i{font-size:25px;color:white;margin-right:10px;margin-top:10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }/*END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For mobile phones: 
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: 
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: 
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}*/
